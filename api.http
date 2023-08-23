@@ -1,10 +1,5 @@
-GET http://localhost:3000/prefixo/test
-
 ###
 GET http://localhost:3000/routes
-
-###
-GET http://localhost:3000/routes/64e4ccfff4754d64c5434f45
 
 ###
 POST http://localhost:3000/routes
@@ -15,15 +10,3 @@ Content-Type: application/json
     "source_id": "EkZBdi4gR292LiBWYWxhZGFyZXMsIDEwMDAgLSBTYW50byBBZm9uc28sIEJldGltIC0gTUcsIDMyNjIzLTU3NSwgQnJhc2lsIjESLwoUChIJja7gMwfdpgARgN9V_RFivpEQ6AcqFAoSCfmsiD4H3aYAEdRlj37c-uzz",
     "destination_id": "EkZBdi4gR292LiBWYWxhZGFyZXMsIDEwMzAgLSBTYW50byBBZm9uc28sIEJldGltIC0gTUcsIDMyNjIzLTY5MCwgQnJhc2lsIjESLwoUChIJTbH1swDdpgARYOtQ1DjwovIQhggqFAoSCfmsiD4H3aYAEdRlj37c-uzz"
 }
-
-### Remove route
-DELETE http://localhost:3000/routes/64e4bebfcdb459b1b8fc9e96
-
-### Coisas do mapa
-
-### Pegar o place_id
-GET http://localhost:3000/places?text=Alameda José Quintino, s/n - Prado, Cedro - CE
-
-### Pegar direções entre 2 pontos
-GET http://localhost:3000/directions?originId=EkZBdi4gR292LiBWYWxhZGFyZXMsIDEwMDAgLSBTYW50byBBZm9uc28sIEJldGltIC0gTUcsIDMyNjIzLTU3NSwgQnJhc2lsIjESLwoUChIJja7gMwfdpgARgN9V_RFivpEQ6AcqFAoSCfmsiD4H3aYAEdRlj37c-uzz&destinationId=EkZBdi4gR292LiBWYWxhZGFyZXMsIDEwMzAgLSBTYW50byBBZm9uc28sIEJldGltIC0gTUcsIDMyNjIzLTY5MCwgQnJhc2lsIjESLwoUChIJTbH1swDdpgARYOtQ1DjwovIQhggqFAoSCfmsiD4H3aYAEdRlj37c-uzz
-
