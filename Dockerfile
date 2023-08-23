@@ -4,6 +4,8 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
+RUN apt-get update -y && apt-get install -y openssl
+
 RUN npm install --only=development
 
 COPY . .
